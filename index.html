@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sviluppo di una pagina web - Blog Epicode</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <img src="./assets/img/logo.svg" style="width: 180px" />
+        <p>
+          <strong>Epicode - Il blog dei developers</strong>
+        </p>
+      </div>
+
+      <div>
+        <a href="#">Home</a>
+        <a href="#">Articoli</a>
+        <a href="#">Lavora con noi</a>
+      </div>
+    </header>
+
+    <main>
+      <div>
+        <h1>Come creare un template per i post</h1>
+        <p>di Mario Rossi - pubblicato il 25-10-2020</p>
+      </div>
+
+      <div>
+        <p>
+          La prima cosa da fare è suddividere in blocchi logici la pagine,
+          identificando le parti comuni da applicare a tutte le pagine.
+        </p>
+        <p>Le varie aree saranno quindi suddivise in:</p>
+
+        <div>
+          <ul>
+            <li>Contenuti di intestazione del tag &ltheader&gt</li>
+            <li>Contenuti centrali variabili del tag &ltmain&gt</li>
+            <li>
+              Contenuti di fine pagina comuni, da inserire nel tag &ltfooter&gt
+            </li>
+          </ul>
+        </div>
+        <h3>Formattazione del codice</h3>
+        <p>
+          Il testo dell'articolo dovrà essere formattato per identificare tutte
+          le parti da selezionare con i CSS. Perciò i passi saranno:
+        </p>
+        <div>
+          <ul>
+            <li>
+              Progettare il markup assegnando ad ogni specifico testo il tag
+              appropriato
+            </li>
+            <li>
+              Scrivere l'HTML dai tag esterni a quelli interni e dall'alto verso
+              il basso
+            </li>
+            <li>Applicare gli stili CSS</li>
+          </ul>
+        </div>
+        <p>
+          L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere
+          la diffusione pressochè totale.
+        </p>
+
+        <div>
+          <table>
+            <thead>
+              <tr>
+                <th>Diffusione dei CSS</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Anno</td>
+                <td>% di utilizzo</td>
+                <td>Supporto browsers</td>
+              </tr>
+              <tr>
+                <td>2000</td>
+                <td>20%</td>
+                <td>17%</td>
+              </tr>
+              <tr>
+                <td>2002</td>
+                <td>35%</td>
+                <td>22%</td>
+              </tr>
+              <tr>
+                <td>2004</td>
+                <td>45%</td>
+                <td>42%</td>
+              </tr>
+              <tr>
+                <td>2008</td>
+                <td>80%</td>
+                <td>51%</td>
+              </tr>
+              <tr>
+                <td>2012</td>
+                <td>100%</td>
+                <td>76%</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <p>
+        Un test di validazione potrà essere fatto tramite il
+        <a href="#">tool online</a> dedicato allo scopo. Una volta ottimizzato,
+        avremo raggiunto il nostro obiettivo ed essere stati dei veri developers
+        come loro:
+      </p>
+      <div>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/enR58PYHaWw?si=RCNR3t9NHKcclSfE"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+
+      <div>
+        <div>
+          <h3>Vuoi rimanere aggiornato su altre novità del blog?</h3>
+          <form>
+            <fieldset style="width: fit-content">
+              <legend>Iscriviti alla nostra newsletter:</legend>
+              <input type="email" id="email" />
+              <label for="email">Inserisci il tuo indirizzo e-mail</label>
+              <br />
+              <br />
+              <input type="submit" value="Iscriviti!" />
+            </fieldset>
+          </form>
+        </div>
+      </div>
+
+      <hr />
+      <div>
+        <h4>Articoli correlati</h4>
+        <p>
+          <a href="#">Validare il codice HTML</a><br />Categoria: develop<br />Data:
+          18-9-2020
+        </p>
+        <p>
+          <a href="#">Correggere la sintassi</a><br />Categoria: develop<br />Data:16-09-2020
+        </p>
+        <p>
+          <a href="#">Meno Kb nella pagina</a><br />Categoria: ottimizzazione<br />Data:30-09-2020
+        </p>
+      </div>
+    </main>
+
+    <hr />
+
+    <footer>
+      <p><strong>Blog Epicode &copy;</strong></p>
+      <p>
+        Testata online di Mario Rossi, registrata con prot. n. 213/2018 - Via
+        Luigi Einaudi 2 - Milano. P.IVA 00112233.
+        <a href="#">info@epicode.school</a>
+      </p>
+    </footer>
+  </body>
+</html>
